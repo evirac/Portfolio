@@ -3,17 +3,26 @@ import twitterIcon from "/assets/projects/twitter-logo.jpeg";
 import todoApp from "/assets/projects/todo-app.jpeg";
 import foodDelivery from "/assets/projects/food-delivery.jpeg";
 import blogWebsite from "/assets/projects/blog-website.jpeg";
+
 export const HERO_CONTENT = `Hey! I’m Ayush, a versatile full-stack developer with a flair for elegant code. My technical toolkit includes ReactJS, Next.js, and a dash of Sass for front-end magic, while Node.js, MongoDB, and Express.js power my backend wizardry. Beyond the code, I’m a collaborative problem-solver—a good communicator and a team player. Always eager to learn and create, I believe in building remarkable solutions together.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projectsHey there! I’m Ayush, a full-stack developer passionate about creating seamless web experiences. On the front end, I wield ReactJS, Next.js, Tailwind CSS, and a dash of Sass to craft pixel-perfect interfaces. For the backend, I rely on Node.js, MongoDB, MySQL, and Express.js to build robust systems. My mission? To engineer innovative solutions that drive business growth while delivering exceptional user experiences. Let’s collaborate and create something remarkable!`;
+export const ABOUT_TEXT = `As a passionate technologist, I've spent years exploring the vast landscape of programming languages and technologies. My journey began with C programming, but soon expanded to include Java, Python, Dart, and more. With a keen interest in building innovative solutions, I've developed a diverse range of projects, from web applications using React, Node.js, and MongoDB, to mobile apps with Kotlin and Flutter, and even games with C# in Unity and Godot. Through experimentation and continuous learning, I've honed my skills and cultivated a passion for creating cutting-edge technology solutions. This portfolio showcases my projects and experiences, highlighting my dedication to innovation and growth.`;
 
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Software Engineer",
     company: "HclTech",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `As a Software Engineer at HCLTech, I successfully developed and maintained complex data pipelines using Azure Data Factory (ADF), leveraging complementary technologies like Synapse SQL, Azure Databricks, Azure DevOps, and Power BI to drive business insights. I effectively utilized a range of tools to design, implement, and optimize data solutions, delivering high-quality products with precision and expertise.`,
+    technologies: ["ADF", "Azure devops", "SynapseSQL", "DataBricks"],
+  },
+  {
+    year: "2023 Jan - 2023 March",
+    role: "intern",
+    company: "Campalin",
+    description:
+      "As an intern, I developed and maintained a food recipe website where users would upload, bookmark and comment on recipes using the technologies react, express, node.js and mongodb. It had features like searching with recipe names or tags.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Express.js", "MongoDB"],
   },
 ];
 
