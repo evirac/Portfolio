@@ -1,4 +1,5 @@
 import React from "react";
+import { SiLeetcode } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
@@ -9,6 +10,9 @@ const Navbar = () => {
         <img className="mx-2 w-10" src="/assets/kevinRushLogo.png" alt="logo" />
       </div>
       <div className="m-8 flex flex-shrink-0 items-center gap-4 text-2xl">
+        <a href="https://leetcode.com/u/evirac/">
+          <SiLeetcode />
+        </a>
         <a href="https://www.linkedin.com/in/ayushgupta348/">
           <FaLinkedin />
         </a>
