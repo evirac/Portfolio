@@ -1,20 +1,55 @@
-import ecomWebsite from "/assets/projects/ecom-website.jpeg";
-import twitterIcon from "/assets/projects/twitter-logo.jpeg";
-import todoApp from "/assets/projects/todo-app.jpeg";
-import foodDelivery from "/assets/projects/food-delivery.jpeg";
-import blogWebsite from "/assets/projects/blog-website.jpeg";
+import brainTumorMRI from "/assets/projects/Brain_Tumor_MRI_Classification.png";
+import multiTaskAI from "/assets/projects/Multi-Task_AI_Application.png";
+import smartPremium from "/assets/projects/Smart_Premium_Prediction_System.png";
 
-export const HERO_CONTENT = `Hey! I’m Ayush, a versatile full-stack developer with a flair for elegant code. My technical toolkit includes ReactJS, Next.js, and a dash of Sass for front-end magic, while Node.js, MongoDB, and Express.js power my backend wizardry. Beyond the code, I’m a collaborative problem-solver—a good communicator and a team player. Always eager to learn and create, I believe in building remarkable solutions together.`;
+export const HERO_CONTENT = `I’m Ayush Gupta, a Software Engineer working at the intersection of data engineering and AI. I enjoy building systems that don’t just process data but actually make sense of it — from large-scale ETL pipelines to machine learning applications.`;
 
-export const ABOUT_TEXT = `As a passionate technologist, I've spent years exploring the vast landscape of programming languages and technologies. My journey began with C programming, but soon expanded to include Java, Python, Dart, and more. With a keen interest in building innovative solutions, I've developed a diverse range of projects, from web applications using React, Node.js, and MongoDB, to mobile apps with Kotlin and Flutter, and even games with C# in Unity and Godot. Through experimentation and continuous learning, I've honed my skills and cultivated a passion for creating cutting-edge technology solutions. This portfolio showcases my projects and experiences, highlighting my dedication to innovation and growth.`;
+export const ABOUT_TEXT = `I've spent the last few years working with data pipelines, automation, and machine learning systems. My core experience comes from building and managing ETL workflows, but over time, I've developed a strong interest in AI — especially generative AI and real-world ML applications. What I enjoy most is breaking down complex problems, simplifying systems, and building solutions that are both efficient and practical. Whether it's optimizing pipelines or experimenting with AI models, I like working on things that have clear impact.`;
+
+export const TECHNICAL_SKILLS = [
+  // Languages & Core Tools:
+// Python, SQL, JavaScript
+{
+  category: "Languages & Core Tools",
+  skills: ["Python", "SQL", "JavaScript"],
+},
+// Data & Machine Learning:
+// Pandas, NumPy, Scikit-learn, EDA, Feature Engineering, Model Evaluation
+{
+  category: "Data & Machine Learning",
+  skills: ["Pandas", "NumPy", "Scikit-learn", "EDA", "Feature Engineering", "Model Evaluation"],
+},
+// AI & Modern ML:
+// LLMs, RAG, Prompt Engineering, LangChain, Vector Databases
+{
+  category: "AI & Modern ML",
+  skills: ["LLMs", "RAG", "Prompt Engineering", "LangChain", "Vector Databases"],
+},
+// Web & Frameworks:
+// Django, DRF, React, Node.js, Streamlit
+ { category: "Web & Frameworks",
+  skills: ["Django", "DRF", "React", "Node.js", "Streamlit"],
+},
+// Data Engineering & Cloud:
+// Azure Data Factory (ADF), Azure Synapse SQL, ETL Pipelines
+ { category: "Data Engineering & Cloud",
+  skills: ["Azure Data Factory (ADF)", "Azure Synapse SQL", "ETL Pipelines"],
+},
+// Databases:
+// PostgreSQL, MongoDB, MySQL
+  { category: "Databases",
+    skills: ["PostgreSQL", "MongoDB", "MySQL", "SynapseSQL"],
+  },
+
+];
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2023 - Present",
     role: "Software Engineer",
     company: "HclTech",
-    description: `As a Software Engineer at HCLTech, I successfully developed and maintained complex data pipelines using Azure Data Factory (ADF), leveraging complementary technologies like Synapse SQL, Azure Databricks, Azure DevOps, and Power BI to drive business insights. I effectively utilized a range of tools to design, implement, and optimize data solutions, delivering high-quality products with precision and expertise.`,
-    technologies: ["ADF", "Azure devops", "SynapseSQL", "DataBricks"],
+    description: `I work as a Software Engineer with around 3 years of experience in data engineering and AI/ML. My background includes building scalable data pipelines, working with Azure tools, and developing machine learning-based applications. Recently, I’ve been focusing more on AI systems — especially areas like LLMs, RAG, and production-ready ML workflows — while still keeping a strong foundation in data engineering.`,
+    technologies: ["ADF", "Azure devops", "SynapseSQL", "DataBricks", "Python", "MLflow", "LLMs", "RAG"],
   },
   {
     year: "2023 Jan - 2023 March",
@@ -28,60 +63,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: ecomWebsite,
+    title: "Brain Tumor MRI Classification",
+    image: brainTumorMRI,
     description:
-      "Created an eCommerce website that allows sellers to showcase their products by posting pictures, adding descriptions, including rate tags, and also allows the users to compare similar products by different sellers.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-    ],
-    link: "https://evirac-novanest.netlify.app/",
-  },
-  {
-    title: "Twitter clone",
-    image: twitterIcon,
-    description:
-      "Built a Twitter clone with features like user login, registration, creating and deleting a tweet, adding an image to a tweet, liking and disliking a tweet, adding and replying to a tweet, retweet, read all the tweets in an app, create and edit a user, follow and unfollow user, view a user profile details, update profile picture including uploading images using multer, etc.A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "SASS",
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-    ],
-    link: "https://github.com/evirac/Twitter_Clone/",
-  },
-  {
-    title: "Food Delivery Webiste",
-    image: foodDelivery,
-    description:
-      "Created a food delivery responsive website with features such as login, registration, creating and tracker orders, payment methods, admin login",
-    technologies: ["React", "Node.js", "MongoDB", "HTML", "CSS", "SASS"],
+      "Developed a CNN-based model for brain tumor classification using MRI datasets, achieving ~88–92% accuracy through data preprocessing and augmentation techniques. Improved model generalization by applying normalization, resizing, and augmentation, reducing overfitting by ~15%. Built an end-to-end computer vision pipeline reducing manual diagnostic effort by ~30% in simulated testing scenarios.",
+    technologies: ["Python", "CNN", "Deep Learning", "Computer Vision"],
     link: "#",
   },
   {
-    title: "Blogging Platform",
-    image: blogWebsite,
+    title: "Multi-Task AI Application",
+    image: multiTaskAI,
     description:
-      "Created platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles using Nextjs",
-    technologies: ["HTML", "CSS", "Next.js", "Express", "mySQL"],
+      "Designed a modular AI system integrating image generation, next-word prediction, sentiment analysis, and text summarization, supporting 4 AI tasks in a single architecture. Implemented NLP and deep learning models achieving ~85% accuracy in sentiment classification and coherent text generation. Reduced inference latency by ~20% through optimized model loading and modular execution pipelines.",
+    technologies: ["Python", "Deep Learning", "NLP", "LLMs"],
     link: "#",
   },
   {
-    title: "Task Management App",
-    image: todoApp,
+    title: "Smart Premium Prediction System",
+    image: smartPremium,
     description:
-      "Created a cross-platform application for managing tasks and projects, with features such as task creation, assignment, and progress tracking usind flutter framework with dynamic theme which changes colors according to user's wallpaper",
-    technologies: ["Flutter", "Dart"],
-    link: "https://github.com/evirac/Todo-list",
+      "Built a regression model to predict insurance premiums, achieving R² score of ~0.82–0.88 after feature engineering and model tuning. Performed EDA and feature selection, improving model performance by ~18% compared to baseline models. Developed a reusable ML pipeline, reducing model retraining time by ~25% and improving workflow efficiency.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "ML"],
+    link: "#",
   },
 ];
 
