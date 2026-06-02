@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 
@@ -36,7 +35,12 @@ const Projects = () => {
               transition={{ duration: 0.8 }}
               className="w-full  max-w-xl lg:w-3/4"
             >
-              <a href={project.link} className="mb-2 font-semibold">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-2 inline-block font-semibold transition-colors hover:text-purple-400"
+              >
                 {project.title}
               </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>

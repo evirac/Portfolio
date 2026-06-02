@@ -1,5 +1,6 @@
 import brainTumorMRI from "/assets/projects/Brain_Tumor_MRI_Classification.png";
 import multiTaskAI from "/assets/projects/Multi-Task_AI_Application.png";
+import researchAssistantAI from "/assets/projects/Research_Assistant_AI.png";
 import smartPremium from "/assets/projects/Smart_Premium_Prediction_System.png";
 
 export const HERO_CONTENT = `I’m Ayush Gupta, a Software Engineer working at the intersection of data engineering and AI. I enjoy building systems that don’t just process data but actually make sense of it — from large-scale ETL pipelines to machine learning applications.`;
@@ -63,20 +64,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Brain Tumor MRI Classification",
-    image: brainTumorMRI,
+    title: "Research Assistant AI",
+    image: researchAssistantAI,
     description:
-      "Developed a CNN-based model for brain tumor classification using MRI datasets, achieving ~88–92% accuracy through data preprocessing and augmentation techniques. Improved model generalization by applying normalization, resizing, and augmentation, reducing overfitting by ~15%. Built an end-to-end computer vision pipeline reducing manual diagnostic effort by ~30% in simulated testing scenarios.",
-    technologies: ["Python", "CNN", "Deep Learning", "Computer Vision"],
-    link: "#",
-  },
-  {
-    title: "Multi-Task AI Application",
-    image: multiTaskAI,
-    description:
-      "Designed a modular AI system integrating image generation, next-word prediction, sentiment analysis, and text summarization, supporting 4 AI tasks in a single architecture. Implemented NLP and deep learning models achieving ~85% accuracy in sentiment classification and coherent text generation. Reduced inference latency by ~20% through optimized model loading and modular execution pipelines.",
-    technologies: ["Python", "Deep Learning", "NLP", "LLMs"],
-    link: "#",
+      "Built a fully local, privacy-first RAG system for querying academic PDFs with multi-turn conversations, hybrid retrieval, semantic memory, streaming responses, and structured citations. Integrated FastAPI, Streamlit, Ollama, ChromaDB, LangChain, and layout-aware PyMuPDF ingestion to keep document Q&A private and accurate on local hardware.",
+    technologies: ["Python", "RAG", "FastAPI", "Streamlit", "Ollama", "ChromaDB"],
+    link: "https://github.com/evirac/research-assistant-ai",
   },
   {
     title: "Smart Premium Prediction System",
@@ -84,7 +77,23 @@ export const PROJECTS = [
     description:
       "Built a regression model to predict insurance premiums, achieving R² score of ~0.82–0.88 after feature engineering and model tuning. Performed EDA and feature selection, improving model performance by ~18% compared to baseline models. Developed a reusable ML pipeline, reducing model retraining time by ~25% and improving workflow efficiency.",
     technologies: ["Python", "Scikit-learn", "Pandas", "ML"],
-    link: "#",
+    link: "https://github.com/evirac/SmartPremium",
+  },
+  {
+    title: "Multi-Task AI Application",
+    image: multiTaskAI,
+    description:
+      "Designed a modular AI system integrating image generation, next-word prediction, sentiment analysis, and text summarization, supporting 4 AI tasks in a single architecture. Implemented NLP and deep learning models achieving ~85% accuracy in sentiment classification and coherent text generation. Reduced inference latency by ~20% through optimized model loading and modular execution pipelines.",
+    technologies: ["Python", "Deep Learning", "NLP", "LLMs"],
+    link: "https://github.com/evirac/Multi_task",
+  },
+  {
+    title: "Brain Tumor MRI Classification",
+    image: brainTumorMRI,
+    description:
+      "Developed a CNN-based model for brain tumor classification using MRI datasets, achieving ~88–92% accuracy through data preprocessing and augmentation techniques. Improved model generalization by applying normalization, resizing, and augmentation, reducing overfitting by ~15%. Built an end-to-end computer vision pipeline reducing manual diagnostic effort by ~30% in simulated testing scenarios.",
+    technologies: ["Python", "CNN", "Deep Learning", "Computer Vision"],
+    link: "https://github.com/evirac/Brain-Tumor-MRI-Image-Classification",
   },
 ];
 
